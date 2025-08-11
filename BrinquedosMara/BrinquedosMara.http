@@ -1,0 +1,6 @@
+@BrinquedosMara_HostAddress = http://localhost:5174
+
+GET {{BrinquedosMara_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
