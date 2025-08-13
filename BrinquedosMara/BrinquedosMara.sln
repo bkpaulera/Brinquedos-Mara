@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2 d17.14
+VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrinquedosMara", "BrinquedosMara.csproj", "{2C5E0157-883F-4934-B127-9E0455E596EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrinquedosMara.Core", "..\BrinquedosMara.Core\BrinquedosMara.Core.csproj", "{6AB88D7F-0926-440C-9EA2-A633AF3E79A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrinquedosMara.Domain", "..\BrinquedosMara.Core\BrinquedosMara.Domain.csproj", "{6AB88D7F-0926-440C-9EA2-A633AF3E79A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrinquedosMara.Service", "..\BrinquedosMara.Service\BrinquedosMara.Service.csproj", "{06B28F5F-26A1-4501-9FF3-6922FBB6B95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrinquedosMara.Infra", "..\BrinquedosMara.Infra\BrinquedosMara.Infra.csproj", "{29A37E65-7355-4CFF-8A39-3BD7AC52ACD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{6AB88D7F-0926-440C-9EA2-A633AF3E79A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AB88D7F-0926-440C-9EA2-A633AF3E79A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AB88D7F-0926-440C-9EA2-A633AF3E79A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B28F5F-26A1-4501-9FF3-6922FBB6B95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B28F5F-26A1-4501-9FF3-6922FBB6B95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B28F5F-26A1-4501-9FF3-6922FBB6B95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B28F5F-26A1-4501-9FF3-6922FBB6B95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A37E65-7355-4CFF-8A39-3BD7AC52ACD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A37E65-7355-4CFF-8A39-3BD7AC52ACD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A37E65-7355-4CFF-8A39-3BD7AC52ACD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A37E65-7355-4CFF-8A39-3BD7AC52ACD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

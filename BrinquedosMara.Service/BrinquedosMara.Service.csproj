@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BrinquedosMara.Core\BrinquedosMara.Domain.csproj" />
+    <ProjectReference Include="..\BrinquedosMara.Infra\BrinquedosMara.Infra.csproj" />
+  </ItemGroup>
+
 </Project>

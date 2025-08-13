@@ -11,10 +11,10 @@ namespace BrinquedosMara.Domain.Service
 {
     public interface IProdutoService
     {
+        Task<Response<Produto>> GetByIdAsync (long id);
+        Task<Response<IList<Produto>>> GetAllAsync ();
         Task<Response<Produto>> CreateProdutoAsync (ProdutoRequest produto);
         Task<Response<Produto>> UpdateProdutoAsync (ProdutoRequest produto);
         Task<Response<bool>> DeleteProdutoAsync(long id);
-        Task<Response<Produto>> GetByIdAsync (long id);
-        Task<Response<IList<Produto>>> GetAllAsync ();
     }
 }
