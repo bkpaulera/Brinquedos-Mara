@@ -53,7 +53,7 @@ namespace BrinquedosMara.Controllers
 
             // Use CreatedAtRoute com o nome que você definiu
             return CreatedAtRoute("GetProdutoById", new { id = criado.Data.Id }, criado.Data);
-        }
+        } 
 
         /// <summary>
         /// Atualiza um produto existente.
